@@ -254,6 +254,9 @@ footer .footer-bottom .right .footer-link {
   color: #ffffff;
 }
 
+.view {
+  padding-bottom: 100px;
+}
 .view div h2 {
   font-weight: 600;
   font-size: 45px;
@@ -281,14 +284,35 @@ footer .footer-bottom .right .footer-link {
   color: #08546c;
 }
 .port_card a:hover {
-  color: #FFA800;
+  color: #ffa800;
 }
 .port_card a img {
   max-width: 15px;
   height: 15px;
 }
 .port_card a img:hover {
-  fill: #FFA800;
+  fill: #ffa800;
+}
+
+.services .service_ster {
+  width: 40px;
+  height: 40px;
+}
+.services .service_ster2 {
+  width: 70px;
+  height: 40px;
+}
+.services p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+}
+.services p:nth-child(odd) {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #aabfc6;
 }
 
 @media only screen and (max-width: 992px) {
