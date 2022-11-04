@@ -71,19 +71,17 @@ input:focus {
 
 header {
   background-color: #04394a;
-  padding: 1rem 0;
+  padding: rem 0;
   transition: 1s;
 }
 
-.navbar_shrink {
+#navbar {
   overflow: hidden;
-  background-color: #0074d9;
-  padding: 90px 10px;
-  transition: 0.4s;
-  position: fixed;
-  width: 100%;
+  background-color: #04394a;
+  transition: 1s;
+  position: -webkit-sticky;
+  position: sticky;
   top: 0;
-  z-index: 1;
 }
 
 .con_nav {
@@ -94,70 +92,36 @@ header {
   outline: none !important;
 }
 
-footer #main-footer {
-  background-color: rgb(28, 30, 83);
+footer .brend_icon {
+  width: 80px;
+  height: 50px;
 }
-footer #main-footer .top-footer {
-  padding-top: 96px;
+footer .brend_icons {
+  width: 55px;
+  height: 30px;
+  padding: 5px;
+  padding-top: 10px;
 }
-footer #main-footer .top-footer .left p {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 28px;
-  margin-top: 20px;
+footer .pags_link h3 {
+  color: #08546C;
 }
-footer #main-footer .top-footer .left .our-contacts {
-  background-color: rgb(252, 217, 128);
-  margin-top: 86px;
-  padding: 17px 0 17px 37px;
+footer .pags_link h3:hover {
+  color: #FFA800;
 }
-footer #main-footer .top-footer .left .our-contacts a {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 28px;
-  color: #282938;
-  opacity: 0.8;
-  text-decoration: none;
+footer .pags_link a {
+  color: #787878;
 }
-footer #main-footer .top-footer .right h2 {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 48px;
-  line-height: 64px;
+footer .pags_link a:hover {
+  color: #FFA800;
 }
-footer #main-footer .top-footer .right p {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 28px;
-  color: #F4F6FC;
-  opacity: 0.8;
-}
-footer .footer-bottom {
-  padding: 32px 0 10px 0;
-}
-footer .footer-bottom .left p {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 28px;
-}
-footer .footer-bottom .right .footer-link {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 28px;
+@media only screen and (max-width: 575px) {
+  footer .footer_itm {
+    padding-left: 30px;
+  }
 }
 
 .hero {
+  padding-top: 200px;
   padding-bottom: 200px;
   background-image: url(../../images/blur.png);
   background-repeat: no-repeat;

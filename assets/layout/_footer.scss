@@ -1,72 +1,38 @@
 footer{
-    #main-footer{
-        background-color: rgba(28, 30, 83, 1);
-        .top-footer{
-            padding-top: 96px;
-            .left{
-                p{
-                    font-family: 'Poppins';
-                    font-style: normal;
-                    font-weight: 500;
-                    font-size: 16px;
-                    line-height: 28px;
-                    margin-top: 20px;
-                }
-                .our-contacts {
-                    background-color: rgba(252, 217, 128, 1);
-                    margin-top: 86px;
-                    padding: 17px 0 17px 37px;
-                    a{
-                        font-family: 'Poppins';
-                        font-style: normal;
-                        font-weight: 400;
-                        font-size: 16px;
-                        line-height: 28px;
-                        color: #282938;
-                        opacity: 0.8;
-                        text-decoration: none;
-                    }
-                }
-            }
-            .right{
-                h2{
-                    font-family: 'Poppins';
-                    font-style: normal;
-                    font-weight: 600;
-                    font-size: 48px;
-                    line-height: 64px;
-                }
-                p{
-                    font-family: 'Poppins';
-                    font-style: normal;
-                    font-weight: 400;
-                    font-size: 16px;
-                    line-height: 28px;
-                    color: #F4F6FC;
-                    opacity: 0.8;
-                }
-            }
-        }
+    .brend_icon{
+        width: 80px;
+        height: 50px;
+    
     }
-    .footer-bottom{
-        padding: 32px 0 10px 0;
-        .left{
-            p{
-                font-family: 'Poppins';
-                font-style: normal;
-                font-weight: 500;
-                font-size: 16px;
-                line-height: 28px;
+    .brend_icons{
+        width: 55px;
+        height: 30px;
+        padding: 5px;
+        padding-top: 10px;
+        
+    }
+    
+    .pags_link{
+        h3{
+            color:  #08546C;
+            &:hover{
+                color: #FFA800;
             }
         }
-        .right{
-            .footer-link{
-                font-family: 'Poppins';
-                font-style: normal;
-                font-weight: 500;
-                font-size: 16px;
-                line-height: 28px;
+        a{
+            color: #787878;
+            &:hover{
+                color: #FFA800;
             }
         }
+        
+    }
+    
+    
+    @media only screen and (max-width: 575px) {
+        .footer_itm{
+           padding-left: 30px;
+        }
+        
     }
 }
