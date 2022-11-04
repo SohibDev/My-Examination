@@ -85,25 +85,66 @@
       font-weight: 600;
       font-size: 45px;
       line-height: 60px;
-      max-width: 510px;
+      max-width: 400px;
       margin: auto;
     }
     div {
       margin: 30px auto;
-      
+
       div {
         div {
           // padding: 43px 50px;
-          background-color:  #FFFFFF;
+          background-color: #ffffff;
           box-shadow: 0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198);
           margin-bottom: -20px;
-         .product_href {
-         } 
+          .product_href {
+          }
         }
         .card_color {
           background-color: #08546c;
-          color: #FFFFFF;
+          color: #ffffff;
         }
+      }
+    }
+  }
+}
+
+.view {
+  div {
+    h2 {
+      font-weight: 600;
+      font-size: 45px;
+      line-height: 56px;
+      color: #08546c;
+    }
+    p {
+      max-width: 569px;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 29px;
+      color: #757575;
+    }
+  }
+}
+
+.port_card {
+  max-width: 500px;
+  h5 {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 29px;
+    color: #08546c;
+  }
+  a {
+    &:hover {
+      color: #FFA800;
+    }
+    color: #08546c;
+    img {
+      max-width: 15px;
+      height: 15px;
+      &:hover {
+        fill: #FFA800;
       }
     }
   }

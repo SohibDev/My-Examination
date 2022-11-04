@@ -86,6 +86,10 @@ header {
   z-index: 1;
 }
 
+.con_nav {
+  width: 200px;
+}
+
 .Toggle {
   outline: none !important;
 }
@@ -234,20 +238,57 @@ footer .footer-bottom .right .footer-link {
   font-weight: 600;
   font-size: 45px;
   line-height: 60px;
-  max-width: 510px;
+  max-width: 400px;
   margin: auto;
 }
 .product div div {
   margin: 30px auto;
 }
 .product div div div div {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   box-shadow: 0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198);
   margin-bottom: -20px;
 }
 .product div div div .card_color {
   background-color: #08546c;
-  color: #FFFFFF;
+  color: #ffffff;
+}
+
+.view div h2 {
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 56px;
+  color: #08546c;
+}
+.view div p {
+  max-width: 569px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+  color: #757575;
+}
+
+.port_card {
+  max-width: 500px;
+}
+.port_card h5 {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 29px;
+  color: #08546c;
+}
+.port_card a {
+  color: #08546c;
+}
+.port_card a:hover {
+  color: #FFA800;
+}
+.port_card a img {
+  max-width: 15px;
+  height: 15px;
+}
+.port_card a img:hover {
+  fill: #FFA800;
 }
 
 @media only screen and (max-width: 992px) {
