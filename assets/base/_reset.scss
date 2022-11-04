@@ -1,0 +1,68 @@
+@import "../abstracts/variables";
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  img {
+    width: 100%;
+  }
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+.btn {
+  height: 60px;
+  max-width: 185px;
+  background-color: #144557;
+  border-radius: 30px;
+  padding: 15px 30px;
+  &:hover {
+    color: #30b6df;
+  }
+}
+
+.nav_link_color {
+  color: #a1b5bb;
+}
+
+.btn3 {
+    background-color: transparent !important;
+    &:hover {
+        background-color: #ffa63a;
+    }
+}
+
+
+
+.sec_padding {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.m_color {
+  background-color: #04394a;
+}
+.btn2 {
+  background-color: #ffa63a !important;
+  color: white;
+  &:hover {
+    color: #e7e2de;
+  }
+}

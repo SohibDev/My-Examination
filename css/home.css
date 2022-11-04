@@ -1,0 +1,254 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Schoolbell&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+* img {
+  width: 100%;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+.btn {
+  height: 60px;
+  max-width: 185px;
+  background-color: #144557;
+  border-radius: 30px;
+  padding: 15px 30px;
+}
+.btn:hover {
+  color: #30b6df;
+}
+
+.nav_link_color {
+  color: #a1b5bb;
+}
+
+.btn3 {
+  background-color: transparent !important;
+}
+.btn3:hover {
+  background-color: #ffa63a;
+}
+
+.sec_padding {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.m_color {
+  background-color: #04394a;
+}
+
+.btn2 {
+  background-color: #ffa63a !important;
+  color: white;
+}
+.btn2:hover {
+  color: #e7e2de;
+}
+
+header {
+  background-color: #04394a;
+  padding: 1rem 0;
+  transition: 1s;
+}
+
+.navbar_shrink {
+  overflow: hidden;
+  background-color: #0074d9;
+  padding: 90px 10px;
+  transition: 0.4s;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+}
+
+.Toggle {
+  outline: none !important;
+}
+
+footer #main-footer {
+  background-color: rgb(28, 30, 83);
+}
+footer #main-footer .top-footer {
+  padding-top: 96px;
+}
+footer #main-footer .top-footer .left p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  margin-top: 20px;
+}
+footer #main-footer .top-footer .left .our-contacts {
+  background-color: rgb(252, 217, 128);
+  margin-top: 86px;
+  padding: 17px 0 17px 37px;
+}
+footer #main-footer .top-footer .left .our-contacts a {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #282938;
+  opacity: 0.8;
+  text-decoration: none;
+}
+footer #main-footer .top-footer .right h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 64px;
+}
+footer #main-footer .top-footer .right p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #F4F6FC;
+  opacity: 0.8;
+}
+footer .footer-bottom {
+  padding: 32px 0 10px 0;
+}
+footer .footer-bottom .left p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+}
+footer .footer-bottom .right .footer-link {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.hero {
+  padding-bottom: 200px;
+}
+
+.card {
+  border: none;
+}
+
+.hero_text {
+  font-size: 14px;
+}
+
+.hero_card_top {
+  font-family: "Schoolbell";
+  padding: 15px 30px;
+}
+
+.border_hero {
+  border: 2px solid wheat;
+  background: rgba(255, 255, 255, 0.08);
+  border: 3px solid rgba(255, 255, 255, 0.5);
+  -webkit-backdrop-filter: blur(29px);
+          backdrop-filter: blur(29px);
+  /* Note: backdrop-filter has minimal browser support */
+  border-radius: 20px;
+  padding: 10px 16px;
+  font-size: 10px;
+  max-width: 240px;
+  margin-top: 200px;
+  margin-left: 450px;
+}
+
+.hero_card_bottom {
+  max-width: 1070px;
+  max-height: 30%;
+  margin-top: 100px;
+  background: #ffffff;
+  box-shadow: 0px 73px 80px rgba(0, 0, 0, 0.06);
+  border-radius: 30px;
+  padding: 58px 10px;
+  margin-top: 1;
+}
+.hero_card_bottom h3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 22px;
+  color: #265a6a;
+  padding-left: 160px;
+}
+.hero_card_bottom h1 {
+  color: #265a6a;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 22px;
+  margin-bottom: 20px;
+}
+.hero_card_bottom p {
+  color: #265a6a;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+@media only screen and (max-width: 992px) {
+  .hero_card_bottom {
+    max-width: 700px;
+    padding: -10px -40px;
+  }
+  .hero_card_bottom ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .hero_card_bottom li {
+    max-width: 200px;
+  }
+  .hero_card_bottom h3 {
+    margin: auto;
+  }
+  .hero_card_bottom h1 {
+    font-size: 20px;
+  }
+  .hero_card_bottom p {
+    font-size: 8px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+@media only screen and (max-width: 770px) {
+  .border_hero {
+    display: none;
+  }
+  .hero_card_bottom {
+    max-width: 500px;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .hero_card_bottom {
+    max-width: 350px;
+  }
+}/*# sourceMappingURL=home.css.map */

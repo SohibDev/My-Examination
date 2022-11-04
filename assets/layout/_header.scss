@@ -1,0 +1,22 @@
+header {
+  background-color: #04394a;
+  padding: 1rem 0;
+  transition: 1s;
+}
+
+.navbar_shrink {
+  overflow: hidden;
+  background-color: #0074d9;
+  padding: 90px 10px;
+  transition: 0.4s;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+}
+
+.Toggle {
+  outline: none !important;
+}
+
+

@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Schoolbell&display=swap");
+@import "../base/reset";
+@import "../layout/header";
+@import "../layout/footer";
+@import "../abstracts/variables";
+
+.hero {
+  padding-bottom: 200px;
+}
+
+.card {
+  border: none;
+}
+
+.hero_text {
+  font-size: 14px;
+}
+
+.hero_card_top {
+  font-family: "Schoolbell";
+  padding: 15px 30px;
+}
+
+.border_hero {
+  border: 2px solid wheat;
+  background: rgba(255, 255, 255, 0.08);
+  border: 3px solid rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(29px);
+  /* Note: backdrop-filter has minimal browser support */
+  border-radius: 20px;
+  padding: 10px 16px;
+  font-size: 10px;
+  max-width: 240px;
+  margin-top: 200px;
+  margin-left: 450px;
+}
+
+.hero_card_bottom {
+  max-width: 1070px;
+  max-height: 30%;
+  margin-top: 100px;
+  background: #ffffff;
+  box-shadow: 0px 73px 80px rgba(0, 0, 0, 0.06);
+  border-radius: 30px;
+  padding: 58px 10px;
+  margin-top: 1;
+  h3 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 22px;
+    color: #265a6a;
+    padding-left: 160px;
+  }
+
+  h1 {
+    color: #265a6a;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 22px;
+    margin-bottom: 20px;
+  }
+  p {
+    color: #265a6a;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .hero_card_bottom  {
+    max-width: 700px;
+    // display: flex;
+    // flex-direction: column;
+    // flex-wrap: wrap;
+    ul {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    li {
+      max-width: 200px;
+    }
+    h3 {
+      margin: auto;
+    }
+    padding: -10px -40px;
+    h1 {
+      font-size: 20px;
+    }
+    p {
+      font-size: 8px;
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  .border_hero {
+    display: none;
+  }
+  .hero_card_bottom {
+    max-width: 500px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .hero {
+  }
+  .hero_card_bottom {
+    max-width: 350px;
+    h3 {
+    }
+  }
+}
