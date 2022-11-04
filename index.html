@@ -10,7 +10,7 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
     />
     <link rel="stylesheet" href="./css/home.css" />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
     <header class="fixed-top" data-aos="fade-down">
@@ -33,7 +33,11 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav mx-auto">
               <li class="nav-item">
-                <a class="nav-link nav_link_color text-decoration-underline" href="#home">Home</a>
+                <a
+                  class="nav-link nav_link_color text-decoration-underline"
+                  href="#home"
+                  >Home</a
+                >
               </li>
               <li class="nav-item">
                 <a class="nav-link nav_link_color" href="#about">About</a>
@@ -42,7 +46,7 @@
                 <a class="nav-link nav_link_color" href="#service">Service</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link nav_link_color" href="#portfolio"
+                <a class="nav-link nav_link_color" href="#porfolio"
                   >Portfolio</a
                 >
               </li>
@@ -52,7 +56,7 @@
             </ul>
             <ul class="navbar-nav">
               <li class="">
-                <a class="nav-link nav_link_color btn " href="#contact"
+                <a class="nav-link nav_link_color btn" href="#contact"
                   >Contact</a
                 >
               </li>
@@ -62,13 +66,18 @@
       </nav>
     </header>
     <main>
-      <section class="m_color hero sec_padding position-relative">
+      <section class="m_color hero sec_padding position-relative" id="home">
         <div class="container">
           <div class="row align-items-center">
-            <div class="col-12 col-sm-12 row  col-md-12 col-lg-5" data-aos="fade-right">
+            <div
+              class="col-12 col-sm-12 row col-md-12 col-lg-5"
+              data-aos="fade-right"
+            >
               <div class="card col m_color" style="width: 18rem">
                 <div class="card-body">
-                  <a class="nav-link nav_link_color btn hero_card_top mb-3" href="#"
+                  <a
+                    class="nav-link nav_link_color btn hero_card_top mb-3"
+                    href="#"
                     >Hey, I’m Musa</a
                   >
                   <h1 class="card-title text-light">
@@ -80,27 +89,45 @@
                     UI/UX, Responsive web design, and visual Development.
                   </p>
                   <a href="#" class="card-link btn btn2 bg-light">Hire Me</a>
-                  <a href="#" class="card-link btn btn3 nav_link_color">Hire Me</a>
+                  <a href="#" class="card-link btn btn3 nav_link_color"
+                    >Hire Me</a
+                  >
                 </div>
               </div>
             </div>
-            <div class="col-12 col-sm-12 row col-md-12 col-lg-7" data-aos="fade-left">
-                <img src="./images/image.png" alt="image">
-                <div class=" border_hero w-50 position-absolute">
-                  <p class="text-light w-100  z-index">‘’Musa has benn an outstanding
-                    contributor to our team’s UI Designer
-                    needs highly recommened’’</p>
-                    <div class="d-flex nav_link_color">
-                      <img style="width: 30px; height: 30px;" class="position-relative hero_bottom_img" src="./images/herosmallimg.png" alt="herosmallimg">
-                      <p><strong class="text-light">Jason Holder</strong><br>
-                        UX Designer at Futura</p>
-                    </div>
+            <div
+              class="col-12 col-sm-12 row col-md-12 col-lg-7"
+              data-aos="fade-left"
+            >
+              <img src="./images/image.png" alt="image" />
+              <div class="border_hero w-50 position-absolute">
+                <p class="text-light w-100 z-index">
+                  ‘’Musa has benn an outstanding contributor to our team’s UI
+                  Designer needs highly recommened’’
+                </p>
+                <div class="d-flex nav_link_color">
+                  <img
+                    style="width: 30px; height: 30px"
+                    class="position-relative hero_bottom_img"
+                    src="./images/herosmallimg.png"
+                    alt="herosmallimg"
+                  />
+                  <p>
+                    <strong class="text-light">Jason Holder</strong><br />
+                    UX Designer at Futura
+                  </p>
                 </div>
+              </div>
             </div>
             <div class="col-12">
-              <div class="hero_card_bottom position-absolute w-100 me-5">
-                <h3 class="hero_card_bottom_title me-5">STATISTIC</h3>
-                <ul class="d-flex justify-content-between w-75 mx-auto pt-3 flex-wrap">
+              <div
+                class="hero_card_bottom position-absolute w-100  mx-auto"
+                data-aos="fade-down"
+              >
+                <h3 class="hero_card_bottom_title mx-auto">STATISTIC</h3>
+                <ul
+                  class="d-flex justify-content-between w-75 mx-auto pt-3 flex-wrap"
+                >
                   <li>
                     <h1>300 +</h1>
                     <p>Project Delivery</p>
@@ -123,11 +150,48 @@
           </div>
         </div>
       </section>
-      <section>
+      <section class="sec_padding product" id="porfolio">
         <div class="container">
-          <h6 >Services</h6>
-          <h2>Building Digital Product
-            With Better Experience</h2>
+          <h6 class="text-center">Services</h6>
+          <h2>Building Digital Product With Better Experience</h2>
+          <div class="row" data-aos="fade-up">
+            <div class="card col-sm-12 col-md-6 col-lg-6 col-xl-6 col-3d- mx-auto" style="width: 17rem;">
+              <div class="card-body m-color">
+                <a class="product_href" href="#"><img class="svg_imgs" src="./images/products1.svg" alt="products1"></a><br><br>
+                <h5 class="card-title">UI/UX Design</h5>
+                <p class="card-text">I’ve created a user interface
+                  and user experience with
+                  some proccess and method.</p>
+              </div>
+            </div>
+            <div class="card col-sm-12 col-md-6 col-lg-6 col-xl-6 col-3" style="width: 17rem;">
+              <div class="card-body card_color">
+                <a class="product_href" href="#"><img class="svg_imgs" src="./images/products-2.svg" alt="products1"></a><br><br>
+                <h5 class="card-title">Web Development</h5>
+                <p class="card-text">I’ve created a user interface
+                  and user experience with
+                  some proccess and method.</p>
+              </div>
+            </div>
+            <div class="card col-sm-12 col-md-6 col-lg-6 col-xl-6 col-3" style="width: 17rem;">
+              <div class="card-body">
+                <a class="product_href" href="#"><img class="svg_imgs" src="./images/products3.svg" alt="products1"></a><br><br>
+                <h5 class="card-title">Visual Branding</h5>
+                <p class="card-text">I’ve created a user interface
+                  and user experience with
+                  some proccess and method.</p>
+              </div>
+            </div>
+            <div class="card col-sm-12 col-md-6 col-lg-6 col-xl-6 col-3" style="width: 17rem;">
+              <div class="card-body">
+                <a class="product_href" href="#"><img class="svg_imgs" src="./images/products4.svg" alt="products1"></a><br><br>
+                <h5 class="card-title">App Development</h5>
+                <p class="card-text">I’ve created a user interface
+                  and user experience with
+                  some proccess and method.</p>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </main>

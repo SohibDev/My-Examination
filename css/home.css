@@ -47,6 +47,11 @@ input:focus {
   background-color: #ffa63a;
 }
 
+.svg_imgs {
+  width: 30px;
+  height: 30px;
+}
+
 .sec_padding {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -181,7 +186,7 @@ footer .footer-bottom .right .footer-link {
 }
 
 .hero_card_bottom {
-  max-width: 1070px;
+  max-width: 1100px;
   max-height: 30%;
   margin-top: 100px;
   background: #ffffff;
@@ -197,7 +202,7 @@ footer .footer-bottom .right .footer-link {
   font-size: 24px;
   line-height: 22px;
   color: #265a6a;
-  padding-left: 160px;
+  margin: auto;
 }
 .hero_card_bottom h1 {
   color: #265a6a;
@@ -213,6 +218,36 @@ footer .footer-bottom .right .footer-link {
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
+}
+
+.product {
+  margin-top: 170px;
+}
+.product div h6 {
+  color: #08546c;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 60px;
+}
+.product div h2 {
+  color: #08546c;
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 60px;
+  max-width: 510px;
+  margin: auto;
+}
+.product div div {
+  margin: 30px auto;
+}
+.product div div div div {
+  background-color: #FFFFFF;
+  box-shadow: 0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198);
+  margin-bottom: -20px;
+}
+.product div div div .card_color {
+  background-color: #08546c;
+  color: #FFFFFF;
 }
 
 @media only screen and (max-width: 992px) {
@@ -247,6 +282,13 @@ footer .footer-bottom .right .footer-link {
     max-width: 500px;
   }
 }
+.product div h6 {
+  font-size: 20px;
+}
+.product div h2 {
+  font-size: 30px;
+}
+
 @media only screen and (max-width: 450px) {
   .hero_card_bottom {
     max-width: 350px;
