@@ -361,23 +361,43 @@
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <div class="row">
-              <div class="col6"><img src="./images/prot_img1.png" class="w-100" alt="..."></div>
-              <div class="col-6">
+              <div class="row blog_card justify-content-between">
+              <div class="col-12 col-sm-12 col-md-6 col-xl-6"><img src="./images/blog.png" class="w-100" alt="..."></div>
+              <div class="col-12 col-sm-12 col-md-6 col-xl-6">
                 <h1>My Blog
                   And News</h1>
                   <p>If It’s abillboard ad, you’ll need a super
                     catchy headline due to the speed at
                     which people will pass.</p>
-                    <a href="#" class="card-link btn btn2 bg-light">Hire Me</a>
+                    <a href="#" class="card-link btn btn2 bg-light mt-5">Go To The Blog</a>
               </div>
             </div>
             </div>
             <div class="carousel-item">
-              <img src="./images/prot_img3.png" class="d-block w-100" alt="...">
+              <div class="row blog_card justify-content-between">
+                <div class="col-12 col-sm-12 col-md-6 col-xl-6"><img src="./images/prot_img1.png" class="w-100" alt="..."></div>
+                <div class="col-12 col-sm-12 col-md-6 col-xl-6">
+                  <h1>My Blog
+                    And News</h1>
+                    <p>If It’s abillboard ad, you’ll need a super
+                      catchy headline due to the speed at
+                      which people will pass.</p>
+                      <a href="#" class="card-link btn btn2 bg-light mt-5">Go To The Blog</a>
+                </div>
+              </div>
             </div>
             <div class="carousel-item">
-              <img src="./images/prot_img4.png" class="d-block w-100" alt="...">
+              <div class="row blog_card justify-content-between">
+                <div class="col-12 col-sm-12 col-md-6 col-xl-6"><img src="./images/prot_img3.png" class="w-100" alt="..."></div>
+                <div class="col-12 col-sm-12 col-md-6 col-xl-6">
+                  <h1>My Blog
+                    And News</h1>
+                    <p>If It’s abillboard ad, you’ll need a super
+                      catchy headline due to the speed at
+                      which people will pass.</p>
+                      <a href="#" class="card-link btn btn2 bg-light mt-5">Go To The Blog</a>
+                </div>
+              </div>
             </div>
           </div>
           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -391,7 +411,7 @@
         </div>
       </section>
     </main>
-    <footer class="sec_padding">
+    <footer class="" id="contact">
       <div class="container">
         <div class="footer_itm">
           <div class="row">
@@ -523,11 +543,11 @@
       window.onscroll = function() {scrollFunction()};
       
       function scrollFunction() {
-        if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-          document.getElementById("navbar").style.padding = "30px 10px";
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          document.getElementById("navbar").style.padding = "5px 10px";
           document.getElementById("logo").style.fontSize = "25px";
         } else {
-          document.getElementById("navbar").style.padding = "80px 10px";
+          document.getElementById("navbar").style.padding = "0px 10px";
           document.getElementById("logo").style.fontSize = "35px";
         }
       }
