@@ -45,7 +45,8 @@ input:focus {
 .btn3 {
     background-color: transparent !important;
     &:hover {
-        background-color: #ffa63a;
+        background-color: #ffa63a !important;
+        color: whitesmoke !important;
     }
 }
 
@@ -65,10 +66,15 @@ input:focus {
 .m_color {
   background-color: #04394a;
 }
+
 .btn2 {
+  background-color: transparent;
+}
+
+.btn2:hover {
   background-color: #ffa63a !important;
-  color: white;
-  &:hover {
-    color: #e7e2de;
-  }
+  // color: white;
+  // &:hover {
+  //   color: #e7e2de;
+  // }
 }

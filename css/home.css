@@ -44,7 +44,8 @@ input:focus {
   background-color: transparent !important;
 }
 .btn3:hover {
-  background-color: #ffa63a;
+  background-color: #ffa63a !important;
+  color: whitesmoke !important;
 }
 
 .svg_imgs {
@@ -62,11 +63,11 @@ input:focus {
 }
 
 .btn2 {
-  background-color: #ffa63a !important;
-  color: white;
+  background-color: transparent;
 }
+
 .btn2:hover {
-  color: #e7e2de;
+  background-color: #ffa63a !important;
 }
 
 header {
