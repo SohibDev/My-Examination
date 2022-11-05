@@ -115,7 +115,6 @@
               border-radius: 50%;
             }
           }
-
         }
       }
     }
@@ -220,13 +219,19 @@
             line-height: 29px;
             color: #757575;
           }
-          .carousel-control-next {
-            background-image: linear-gradient(45deg, black, transparent);
-          }
         }
       }
     }
   }
+}
+
+.carousel-control-next {
+  right: 0;
+  background-image: linear-gradient(45deg, black, transparent);
+}
+.carousel-control-prev {
+left: 0;
+background-image: linear-gradient(45deg, black, transparent);
 }
 
 @media only screen and (max-width: 992px) {

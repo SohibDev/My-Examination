@@ -328,7 +328,14 @@ footer .pags_link a:hover {
   line-height: 29px;
   color: #757575;
 }
-.blog div div div div .carousel-control-next {
+
+.carousel-control-next {
+  right: 0;
+  background-image: linear-gradient(45deg, black, transparent);
+}
+
+.carousel-control-prev {
+  left: 0;
   background-image: linear-gradient(45deg, black, transparent);
 }
 
