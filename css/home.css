@@ -148,6 +148,13 @@ footer .pags_link a:hover {
   font-size: 14px;
 }
 
+.hero_card_left {
+  background-image: url(../../images/blur.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
 .hero_card_top {
   font-family: "Schoolbell";
   padding: 15px 30px;
