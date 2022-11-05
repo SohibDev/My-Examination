@@ -97,6 +97,10 @@ header {
   color: #ffa800;
 }
 
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
 footer .brend_icon {
   width: 80px;
   height: 50px;
