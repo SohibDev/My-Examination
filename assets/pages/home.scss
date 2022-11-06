@@ -46,6 +46,7 @@
   max-width: 240px;
   margin-top: 200px;
   margin-left: 450px;
+  left: calc(50% + -330px);
 }
 
 .hero_card_bottom {
@@ -57,6 +58,7 @@
   border-radius: 30px;
   padding: 58px 10px;
   text-align: center;
+  
 
   // margin-left: 80px !important;
   h3 {
