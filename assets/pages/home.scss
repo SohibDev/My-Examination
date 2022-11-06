@@ -270,9 +270,9 @@ background-image: linear-gradient(45deg, black, transparent);
 }
 
 @media only screen and (max-width: 770px) {
-  .border_hero {
-    display: none;
-  }
+  // .border_hero {
+  //   display: none;
+  // }
   .hero_card_bottom {
     max-width: 500px;
   }
