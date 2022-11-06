@@ -110,8 +110,7 @@
           background-color: #ffffff;
           box-shadow: 0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198);
           margin-bottom: -20px;
-          .product_href {
-          }
+          
         }
         .card_color {
           &:hover {
@@ -169,32 +168,76 @@
     }
   }
 }
+// .services {
+//   background-image: url(../../images/blur.png);
+//   background-repeat: no-repeat;
+//   background-size: cover;
+//   width: 100%;
+//   height: 100%;
+//   .service_ster {
+//     width: 40px;
+//     height: 40px;
+//   }
+//   .service_ster2 {
+//     width: 70px;
+//     height: 40px;
+//   }
+//   p {
+//     font-weight: 500;
+//     font-size: 16px;
+//     line-height: 26px;
+//     color: #ffffff;
+//   }
+//   p:nth-child(odd) {
+//     font-weight: 400;
+//     font-size: 16px;
+//     line-height: 26px;
+//     color: #aabfc6;
+//   }
+// }
+
+
 .services {
-  background-image: url(../../images/blur.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-  height: 100%;
-  .service_ster {
-    width: 40px;
-    height: 40px;
+  .carousel_item img {
+    height: 500px;
+    object-fit: cover;
+  }
+  .carousel-control-next, 
+  .carousel-control-prev {
+    top: auto;
+    bottom: 0;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #ffa800;
+    border-radius: 50%;
+  }
+  .carousel-control-next, 
+  .carousel-control-prev:hover {
+    background-color: #ffa800;
+  }
+  .carousel-control-prev {
+    left: calc(50% + 100px);
+  }
+  .carousel-control-next {
+    left: calc(50% + 200px);
   }
   .service_ster2 {
-    width: 70px;
-    height: 40px;
-  }
+         width: 70px;
+         height: 40px;
+         margin-bottom: 100px;
+        }
   p {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 26px;
-    color: #ffffff;
-  }
-  p:nth-child(odd) {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
-    color: #aabfc6;
-  }
+         font-weight: 500;
+         font-size: 20px;
+         line-height: 26px;
+         color: #ffffff;
+       }
+       p:nth-child(odd) {
+         font-weight: 400;
+         font-size: 16px;
+         line-height: 26px;
+         color: #aabfc6;
+       }
 }
 
 .blog {
@@ -270,11 +313,18 @@ background-image: linear-gradient(45deg, black, transparent);
 }
 
 @media only screen and (max-width: 770px) {
-  // .border_hero {
-  //   display: none;
-  // }
+  .border_hero {
+    display: none;
+  }
   .hero_card_bottom {
     max-width: 500px;
+  }
+  .carousel-control-prev {
+    left: calc(50% + 100px);
+    margin-right: 100px;
+  }
+  .carousel-control-next {
+    left: calc(50% + 200px);
   }
 }
 
@@ -290,11 +340,8 @@ background-image: linear-gradient(45deg, black, transparent);
 }
 
 @media only screen and (max-width: 450px) {
-  .hero {
-  }
+ 
   .hero_card_bottom {
     max-width: 340px;
-    h3 {
-    }
   }
 }
