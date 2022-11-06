@@ -365,7 +365,7 @@ footer .pags_link a:hover {
 
 @media only screen and (min-width: 1200px) {
   .hero_card_bottom {
-    margin-left: 70px !important;
+    margin-left: 0px !important;
   }
 }
 @media only screen and (max-width: 992px) {
